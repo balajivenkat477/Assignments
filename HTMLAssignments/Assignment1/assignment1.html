@@ -37,7 +37,7 @@
 <body>
   <div class="se-pre-con"></div>
   <div class="container-fluid">
-    <div class="screen1">
+    <div id="home" class="screen1">
     <nav class="navbar fixed-top bg-faded">
     <a class="navbar-brand"></a>
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -48,22 +48,22 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav" >
       <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#home">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#features">Features</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Screenshots</a>
+        <a class="nav-link" href="#screenshots">Screenshots</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Video</a>
+        <a class="nav-link" href="#video">Video</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
+        <a class="nav-link" href="#contact">Contact Us</a>
       </li>     
     </ul>
   </div>
@@ -86,7 +86,7 @@
         </div>
       </div>
     </div>
-    <div class="screen1 section2">
+    <div id="features" class="screen1 section2">
       <img src="./images/phone2.png" class="img-responsive phone2-img">
       <div class="centered">
         <h1>An App That You'll Love</h1>
@@ -112,12 +112,12 @@
     </div>
     <div class="screen1 screen-info">
       <div class="row">
-        <div class="col-md-6 screeninfo-text">
+        <div class="col-md-6 col-sm-6 col-xs-12 screeninfo-text">
           <h1>Simple & Clean</h1>
           <p>The best ever app, for you. You're just a moment away from installing this app.</p>
           <h5 class="getstarted">GET STARTED</h5>
         </div>
-        <div class="col-md-6 screeninfo-phn">
+        <div class="col-md-6 col-sm-6 col-xs-12 screeninfo-phn">
           <div class="phones-2">
             <img class="front" src="./images/phone-white.png">
             <img class="back" src="./images/phone-black.png">
@@ -127,20 +127,20 @@
     </div>
     <div class="screen1 screen-info2 mt-0">
       <div class="row">
-        <div class="col-md-6 screeninfo-phn" style="padding-left: 8%;">
+        <div class="col-md-6 col-sm-6 col-xs-12 screeninfo-phn2">
           <div class="phones-2">
             <img class="back2" src="./images/phone-black.png">
             <img class="front2" src="./images/phone-white.png">
             </div>
         </div>
-        <div class="col-md-6 screeninfo-text pl-0">
+        <div class="col-md-6 col-sm-6 col-xs-12 screeninfo-text phones-text">
           <h1>Most Powerful</h1>
-          <p>The best ever app, for you. You're just a moment away from<br> installing this app.</p>
+          <p>The best ever app, for you. You're just a moment away from installing this app.</p>
           <h5 class="getstarted2">GET STARTED</h5>
         </div>
       </div>
     </div>
-    <div class="screen1 screen-info carousel1">
+    <div id="screenshots" class="screen1 screen-info carousel1">
       <div class="carousel-text">
         <h1>SCREENSHOTS</h1>
         <p>Take a look at the app by its screenshots</p>
@@ -156,7 +156,7 @@
           <div class="carousel-item active">
             <div class="inner-img">
             <img src="images/screens/1.jpg">
-            <div class="overlay" style="width: 250px; height: 500px;">
+            <div class="overlay carousel-overlay">
               <div class="text">
                 <i class="fas fa-plus"></i>
               </div>
@@ -164,7 +164,7 @@
           </div>
             <div class="inner-img">
             <img src="images/screens/2.jpg">
-            <div class="overlay" style="width: 250px; height: 500px;">
+            <div class="overlay carousel-overlay">
               <div class="text">
                 <i class="fas fa-plus"></i>
               </div>
@@ -172,7 +172,7 @@
           </div>
             <div class="inner-img">
             <img src="images/screens/3.jpg">
-            <div class="overlay" style="width: 250px; height: 500px;">
+            <div class="overlay carousel-overlay">
               <div class="text">
                 <i class="fas fa-plus"></i>
               </div>
@@ -180,7 +180,7 @@
           </div>
             <div class="inner-img">
             <img src="images/screens/4.jpg">
-            <div class="overlay" style="width: 250px; height: 500px;">
+            <div class="overlay carousel-overlay">
               <div class="text">
                 <i class="fas fa-plus"></i>
               </div>
@@ -190,7 +190,7 @@
           <div class="carousel-item">
             <div class="inner-img">
             <img src="images/screens/5.jpg">
-            <div class="overlay" style="width: 250px; height: 500px;">
+            <div class="overlay carousel-overlay">
               <div class="text">
                 <i class="fas fa-plus"></i>
               </div>
@@ -198,7 +198,7 @@
           </div>
           <div class="inner-img">
             <img src="images/screens/6.jpg">
-            <div class="overlay" style="width: 250px; height: 500px;">
+            <div class="overlay carousel-overlay">
               <div class="text">
                 <i class="fas fa-plus"></i>
               </div>
@@ -206,7 +206,7 @@
           </div>
           <div class="inner-img">
             <img src="images/screens/7.jpg">
-            <div class="overlay" style="width: 250px; height: 500px;">
+            <div class="overlay carousel-overlay">
               <div class="text">
                 <i class="fas fa-plus"></i>
               </div>
@@ -214,7 +214,7 @@
           </div>
           <div class="inner-img">
             <img src="images/screens/8.jpg">
-            <div class="overlay" style="width: 250px; height: 500px;">
+            <div class="overlay carousel-overlay">
               <div class="text">
                 <i class="fas fa-plus"></i>
               </div>
@@ -229,10 +229,10 @@
         <div class="col-md-4 section4-1">
           <i class="far fa-heart"></i>
           <h5>BEAUTIFUL DESIGN</h5>
-          <p>Ad oportere voluptatibus nec, sea ei civibus<br> praesent. At timeam expetenda inciderint has. </p>
+          <p>Ad oportere voluptatibus nec, sea ei civibus praesent. At timeam expetenda inciderint has. </p>
           <i class="fas fa-undo"></i>
           <h5>REGULAR UPDATES</h5>
-          <p>Ad oportere voluptatibus nec, sea ei civibus<br> praesent. At timeam expetenda inciderint has. </p>
+          <p>Ad oportere voluptatibus nec, sea ei civibus praesent. At timeam expetenda inciderint has. </p>
         </div>
         <div class="col-md-4 section4-2">
             <img src="images/phone3.png">
@@ -240,14 +240,14 @@
         <div class="col-md-4 section4-3">
           <i class="fas fa-cart-arrow-down"></i>
           <h5>CART SYSTEM</h5>
-          <p>Ad oportere voluptatibus nec, sea ei civibus<br> praesent. At timeam expetenda inciderint has. </p>
+          <p>Ad oportere voluptatibus nec, sea ei civibus praesent. At timeam expetenda inciderint has. </p>
           <i class="fas fa-magic"></i>
           <h5>MAGICAL APP</h5>
-          <p>Ad oportere voluptatibus nec, sea ei civibus<br> praesent. At timeam expetenda inciderint has. </p>
+          <p>Ad oportere voluptatibus nec, sea ei civibus praesent. At timeam expetenda inciderint has. </p>
         </div>
       </div>
     </div>
-    <div class="screen1 screen-info section5">
+    <div id="video" class="screen1 screen-info section5">
       <div class="row">
         <div class="col-md-4 section5-1">
           <h2>Easily embed a cool video for your app</h2>
@@ -260,7 +260,7 @@
         </div>
       </div>
     </div>
-    <div class="screen1 screen-info2 mt-0 section6">
+    <div id="pricing" class="screen1 screen-info2 mt-0 section6">
       <div class="row">
         <div class="col-md-4 section6-1">
           <h2>Choose your plan or get started with free trial</h2>
@@ -328,7 +328,7 @@
       </div>
       <div class="col-md-8 section8-2">
         <div class="row">
-          <div class="col-md-4 hoverimg">
+          <div class="col-md-4 col-sm-4 hoverimg">
           <img src="images/people1.jpg">
           <div class="overlay">
             <div class="text">
@@ -353,7 +353,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 hoverimg">
+        <div class="col-md-4 col-sm-4 hoverimg">
           <img src="images/people2.jpg">
           <div class="overlay">
             <div class="text">
@@ -378,7 +378,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 hoverimg">
+        <div class="col-md-4 col-sm-4 hoverimg">
           <img src="images/people3.jpg">
           <div class="overlay">
             <div class="text">
@@ -405,7 +405,7 @@
         </div>
           </div>
           <div class="row">
-          <div class="col-md-4 hoverimg">
+          <div class="col-md-4 col-sm-4 hoverimg">
           <img src="images/people4.jpg">
           <div class="overlay">
             <div class="text">
@@ -430,7 +430,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 hoverimg">
+        <div class="col-md-4 col-sm-4 hoverimg">
           <img src="images/people4.jpg">
           <div class="overlay">
             <div class="text">
@@ -455,7 +455,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 hoverimg">
+        <div class="col-md-4 col-sm-4 hoverimg">
           <img src="images/people5.jpg">
           <div class="overlay">
             <div class="text">
@@ -603,10 +603,10 @@
     <div class="screen1 screen-info3 section10">
       <div class="screen-info3-text text-center">
         <h1>Download App Now</h1>
-        <p>Nam reformidans vituperatoribus at. Id nisl diceret maiestatis qui, mel affert doctus te. Ex assum<br> ocurreret eam. Lorem ipsum dolor sit amet is simply a dummy text. </p>
+        <p>Nam reformidans vituperatoribus at. Id nisl diceret maiestatis qui, mel affert doctus te. Ex assum ocurreret eam. Lorem ipsum dolor sit amet is simply a dummy text. </p>
       </div>
       <div class="row section10-1">
-            <div class="col-md-3 col-sm-6 col-xs-6 offset-md-4 download-img1">
+            <div class="col-md-3 col-sm-6 col-xs-6 offset-md-4 offset-sm-2 download-img1">
               <a href="#"><img src="./images/appstore.png"></a>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 download-img2">
@@ -614,7 +614,7 @@
             </div>
           </div>
     </div>
-    <div class="screen1 screen-info2 mt-0">
+    <div id="contact" class="screen1 screen-info2 mt-0">
       <div class="contact text-center">
         <h1>CONTACT US</h1>
         <p>Feel free to contact us for any help</p>
