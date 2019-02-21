@@ -24,7 +24,6 @@
     padding: 2px;
   }
   .banner-img1 img, .banner-img2 img{
-    border: 1px solid #000;
     width: 100%;
     background-color: #000;
   }
@@ -71,6 +70,9 @@
     margin-top: 17%;
     padding-left: 11%;
   }
+  .phones-text{
+    padding-left: 0;
+  }
   .screeninfo-text h1{
     font-size: 43px;
   }
@@ -78,9 +80,14 @@
     font-size: 20px;
     color: #999999; 
     padding-top: 5px;
+    padding-right: 20%;
   }
   .screeninfo-phn{
     margin-top: 8%;
+  }
+  .screeninfo-phn2{
+    margin-top: 8%;
+    padding-left: 8%;
   }
   .phones-2{
     position: relative;overflow: hidden;height: 490px;
@@ -347,7 +354,9 @@
     padding-top: 6%;color: #fff;font-size: 48px;padding-bottom: 10px;
   }
   .section10 .screen-info3-text p{
-    font-size: 17px; color: #9c9c9c;
+    font-size: 17px; 
+    color: #9c9c9c;
+    padding: 0 25%;
   }
   .section10-1{
     margin-left: 45px;margin-top: 50px;
@@ -625,6 +634,315 @@
   border: 4px solid #fff;
   padding: 8px;
 }
-@media only screen and (max-width: 576px) {
-  
+.carousel-overlay{
+  width: 250px; height: 500px;
+}
+.section4-1 p{
+  padding-left: 21%;
+}
+.section4-3 p{
+  padding-right: 21%;
+}
+@media only screen and (max-width: 992px) {
+  .inner-img img{
+    width: 165px;
+  }
+  .carousel-overlay{
+    width: 165px;
+  }
+  .carousel1 .carousel-indicators{
+    bottom: 5%;
+  }
+  .back2 {
+    width: 190px;
+    margin-left: -3%;
+  }
+  .front2 {
+    width: 210px;
+    margin-left: -33.2%;
+  }
+  .back {
+    width: 220px;
+    margin-left: -63%;
+  }
+  .front {
+    width: 240px;
+    margin-right: 92px;
+  }
+  .getstarted{
+    width: 54%;
+    text-align: center;
+  }
+  .getstarted2{
+    width: 43%;
+    text-align: center;
+  }
+  .section4-2 img{
+    width: 100%;
+  }
+  .section4-1 .fa-heart, .fa-undo, .fa-cart-arrow-down, .fa-magic{
+    font-size: 45px;
+  }
+  .section4-1 h5, .section4-3 h5{
+    font-size: 1.25rem;
+    margin-top: 5px;
+  }
+  .section4-1 p, .section4-3 p {
+    font-size: 15px;
+    padding-top: 0;
+  }
+  .section5-2 iframe {
+    width: 82%;
+    height: 380px;
+  }
+  .section5-2 {
+      margin-top: 9%;
+      padding-left: 6%;
+    }
+    .section5-1 {
+      padding-left: 7%;
+    }
+    .section6-1{
+      padding-left: 8%;
+      text-align: left;
+    }
+    .gettrial{
+      width: 100%;
+      text-align: center;
+    }
+    .section8-1 p{
+      font-size: 15px;
+    }
+    .section8-2 {
+      padding: 15% 10% 6% 5%;
+    }
+    .social li i {
+      padding: 0px 10px 10px 0px;
+      font-size: 10px;
+    }
+    .signup{
+      width: 51%;
+      margin-left: 23%;
+    }
+    .section8-1{
+      padding-left: 5%;
+    }
+    .hoverimg {
+      padding: 1px 1px 0 1px;
+    }
+    .section8-1 h2{
+      font-size: 36px;
+    }
+    .text h4{
+      font-size: 15px;
+      margin-top: 5px;
+    }
+    .text p{
+      font-size: 9px;
+      margin-top: -5px;
+    }
+    .section9-1 {
+      padding-left: 7%;
+    }
+    .clients > li{
+      width: 150px;
+    }
+    .carousel2 .carousel-indicators {
+      left: -58%;
+    }
+    .section6-1 h2{
+      font-size: 32px;
+    }
+    .section6-1 p{
+      font-size: 14px;
+    }
+}
+@media only screen and (max-width: 767px) {
+  .navbar-nav{
+    float: left;
+    width: 65%;
+    margin-left: 25%;
+  }
+  .nav-item {
+    display: block;
+  }
+  .nav-link {
+    text-align: center;
+    border-bottom: 1px solid gray;
+  }
+  .banner-img3 img {
+    margin: auto;
+    display: block;
+  }
+  .screen1 .phone2-img{
+    width: 100%;
+  }
+  .getstarted{
+    width: 80%;
+    text-align: center;
+  }
+  .front2 {
+    width: 185px;
+    margin-left: -46%;
+  }
+  .screeninfo-phn2{
+    padding-left: 6%;
+  }
+  .back {
+    width: 166px;
+    margin-left: -42%;
+  }
+  .front {
+    width: 186px;
+    margin-right: 0%;
+    margin-left: -4%;
+  }
+  .phones-2 {
+    height: 390px;
+  }
+  .screeninfo-text h1 {
+    font-size: 29px;
+  }
+  .screeninfo-text p{
+    font-size: 16px;
+  }
+  .back2 {
+    width: 159px;
+    margin-left: -14px;
+  }
+  .getstarted2{
+    width: 60%;
+  }
+  .inner-img{
+    padding-bottom: 1px;
+  }
+  .inner-img img {
+    width: 120px;
+  }
+  .carousel-overlay {
+    width: 120px;
+  }
+  .carousel1{
+    padding-left: 30px;
+  }
+  .carousel1 .carousel-indicators{
+    bottom: 0;
+  }
+  .section4-1{
+    text-align: center;
+  }
+  .section4-1 p, .section4-3 p {
+    padding-left: 11%;
+    text-align: left;
+  }
+  .section4-2 img {
+    width: 50%;
+    margin: auto;
+    display: block;
+  }
+  .section4-3{
+    text-align: center;
+  }
+  .section5-2{
+    padding-left: 20%;
+  }
+  .section6-1{
+    padding: 0 40px 0 40px;
+  }
+  .gettrial{
+    width: 38%;
+  }
+  .section6-2 .center, .section6-3 .center2{
+    margin: 0 10px;
+  }
+  .section7 .input-group{
+    width: 90%;
+  }
+  .email-input{
+    margin-left: 13%;
+  }
+  .section8-2 .row{
+    margin-left: 0;
+  }
+  .text{
+    font-size: 0;
+  }
+  .text h4 {
+    margin-top: -10px;
+    font-size: 18px;
+  }
+  .text p{
+    font-size: 11px;
+  }
+  .social li i{
+    padding: 0px 10px 10px 0;
+  }
+  .section9{
+    padding-bottom: 15%;
+  }
+  .section9-1 {
+    padding-left: 19%;
+  }
+  .carousel2 .carousel-indicators{
+    left: -51%;
+  }
+  .faq-ques .firstcol, .faq-ques .secondcol {
+    padding: 2% 10% 0 14%;
+  }
+  .carousel2 .carousel-item{
+    margin-left: 10%;
+  }
+  .section10-1 {
+    margin-top: 30px;
+  }
+  .download-img2 {
+    margin-left: -25%;
+  }
+  .section10 .screen-info3-text h1{
+    font-size: 2.5rem;
+  }
+  .section10 .screen-info3-text p {
+    text-align: justify;
+    margin: 0 25px;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 576px){
+  .download-img2 {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .carousel2 .carousel-indicators {
+    left: -32%;
+  }
+  .gettrial {
+    width: 65%;
+  }
+  .carousel1 .carousel-indicators {
+    bottom: -12px;
+  }
+  .phones-text {
+    padding-left: 35px;
+    margin-top: 5%;
+  }
+  .banner-text h1 {
+    font-size: 55px;
+  }
+  .banner-text p {
+    font-size: 20px;
+  }
+  .banner-img2{
+    width: 50%;
+    margin-top: 10px;
+  }
+  .banner-img1{
+    margin-left: 28px;
+    width: 50%;
+  }
+  .back2, .front {
+    margin-left: 12%;
+  }
+  .banner-img3 img {
+    height: auto;
+  }
 }
