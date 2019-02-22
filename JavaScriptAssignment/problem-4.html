@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+ var person = {
+  toString() {
+    return this.name;
+  }
+}
+ var person2 = {
+  toString() {
+    return this.money;
+  }
+}
+ 
+let user = {
+  name:"John",
+  money: 1000,
+}
+var x = person.toString.call(user); 
+document.getElementById("demo").innerHTML = x; 
+var y = person2.toString.call(user);
+alert(y);
+
+</script>
+
+</body>
+</html>
+
+
