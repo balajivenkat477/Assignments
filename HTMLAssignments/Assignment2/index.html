@@ -12,8 +12,13 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
+	<script>
+		$(window).scroll(function(){
+			$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+		});
+	</script>
 	<div class="container-fluid">
-		<nav class="navbar navbar-expand-md fixed-top">
+		<nav class="navbar navbar-default navbar-expand-md fixed-top">
 			<a class="navbar-brand" href="#">Stimulus</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -23,7 +28,7 @@
 			<div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
 				<ul class="navbar-nav">
 					<li class="nav-item active">
-						<a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="#">HOME </a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">ABOUT ME</a>
@@ -120,15 +125,131 @@
 				</div>
 			</div>
 		</div>
-		<div class="experience">
-			<div class="row">
-				<div class="col-md-6 col-sm-6">
-					<div class="experience-img"></div>
+		<div class="experience row">
+			<div class="col-md-6 col-sm-6">
+				<div class="experience-img"></div>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<div class="heading">
+					<h1>My Experiences</h1>
+					<p>Previous companies and my task</p>
 				</div>
-				<div class="col-md-6 col-sm-6">
+				<div class="sub-heading1">
+					<div class="icon float-left">
+						<i class="fa fa-laptop"></i>
+					</div>
+					<div class="content">
+						<h3>Graphic Designer<small>   2014 Jul - 2015 Sep</small></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+				</div>
+				<div class="sub-heading2">
+					<div class="icon float-left">
+						<i class="fa fa-laptop"></i>
+					</div>
+					<div class="content">
+						<h3>Web Designer<small>    2015 Oct - 2017 Jan</small></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
 				</div>
 			</div>
 		</div>
+		<div class="row education">
+			<div class="col-md-6 col-sm-6">
+				<div class="heading">
+					<h1>My Education</h1>
+					<p>In cursus orci non ipsum gravida dignissim</p>
+				</div>
+				<div class="sub-heading1">
+					<div class="icon float-left">
+						<i class="fa fa-laptop"></i>
+					</div>
+					<div class="content">
+						<h3>Graphic Designer<small>   2014 Jul - 2015 Sep</small></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+				</div>
+				<div class="sub-heading2">
+					<div class="icon float-left">
+						<i class="fa fa-laptop"></i>
+					</div>
+					<div class="content">
+						<h3>Web Designer<small>    2015 Oct - 2017 Jan</small></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<div class="education-img"></div>
+			</div>
+		</div>
+		<div class="quotes parallax row">
+			<div class="overlay"></div>
+			<div class="center">
+				<i class="fas fa-star"></i>
+				<h4>Proin lobortis eu diam et facilisis. Fusce nisi nibh, molestie in vestibulum quis, auctor et orci.</h4>
+				<p>Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.</p>
+			</div>
+		</div>
+		<div class="contact row">
+			<div class="col-md-6 col-sm-6 contact-form">
+				<div class="heading">
+					<h3>Say hello..</h3>
+					<p>Integer ut consectetur est. In cursus orci non ipsum gravida dignissim.</p>
+				</div>
+				<form action="/action_page.php">
+					<div class="form-group">
+						<input type="name" class="form-control" id="name" placeholder="Your Name" name="name">
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" id="email" placeholder="Your Email" name="email">
+					</div>
+					<div class="form-group">
+						<textarea type="message" class="form-control" placeholder="Write your message..." name="message"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Send</button>
+				</form>
+			</div>
+			<div class="col-md-3 col-sm-3">
+				<div class="contact-img"></div>
+			</div>
+			<div class="col-md-3 col-sm-3 p-0 contact1">
+				<div class="contact-address">
+					<h4>Visit my office</h4>
+					<p>456 New Street 22000, New York City, USA</p>
+				</div>
+				<div class="contact-no">
+					<h4>Contact.</h4>
+					<p><i class="fa fa-phone"></i>01-0110-0220</p>
+					<p><i class="fa fa-envelope"></i><a href="#">hello@company.co</a></p>
+					<p><i class="fa fa-globe"></i> <a href="#">company.co</a></p>
+				</div>
+			</div>			
+		</div>
+		<footer>
+			<div class="row">
+				<div class="col-md-12 col-sm-12 footer-content">
+					<p>Copyright © 2016 Your Company | Design: templatemo</p>
+					<ul class="social">
+						<li>
+							<a href="#"><i class="fab fa-facebook-f"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fab fa-twitter"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fab fa-google-plus-g"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fab fa-dribbble"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fab fa-linkedin-in"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
 	</div>
 </body>
 </html>
