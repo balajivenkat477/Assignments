@@ -10,6 +10,11 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </head>
 <body>
 	<script>
@@ -20,7 +25,7 @@
 	<div class="container-fluid">
 		<nav class="navbar navbar-default navbar-expand-md fixed-top">
 			<a class="navbar-brand" href="#">Stimulus</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 				<span class="navbar-toggler-icon"></span>
 				<span class="navbar-toggler-icon"></span>
@@ -52,30 +57,30 @@
 					<div class="banner-img"></div>
 				</div>
 				<div class="col-md-6 col-sm-6 banner-content">
-					<h4>Welcome to my website</h4>
-					<h1>Hello, I am Stimulus currently based in New York city.</h1>
-					<p>Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.</p>
-					<a href="#"><button>GET STARTED</button></a>
+					<h4 class="wow fadeInUp" data-wow-delay="0.3s">Welcome to my website</h4>
+					<h1 class="wow fadeInUp" data-wow-delay="0.6s">Hello, I am Stimulus currently based in New York city.</h1>
+					<p class="wow fadeInUp" data-wow-delay="0.9s">Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.</p>
+					<a href="#"><button class="wow fadeInUp" data-wow-delay="1.4s">GET STARTED</button></a>
 				</div>
 			</div>
 		</div>
 		<div class="about">
 			<div class="row">
 				<div class="col-md-6 col-sm-6 about-content">
-					<h3>Donec auctor</h3>
-					<h4>Sed vulputate vitae diam quis bibendum</h4>
-					<p>Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem. Mauris convallis eros massa.</p>
-					<p>Quisque viverra iaculis aliquam. Etiam volutpat, justo non aliquam bibendum, sem nibh mollis erat, quis porta odio odio at velit.</p>
+					<h3 class="wow fadeInUp" data-wow-delay="0.4s">Donec auctor</h3>
+					<h4 class="wow fadeInUp" data-wow-delay="0.4s">Sed vulputate vitae diam quis bibendum</h4>
+					<p class="wow fadeInUp" data-wow-delay="0.8s">Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem. Mauris convallis eros massa.</p>
+					<p class="wow fadeInUp" data-wow-delay="0.8s">Quisque viverra iaculis aliquam. Etiam volutpat, justo non aliquam bibendum, sem nibh mollis erat, quis porta odio odio at velit.</p>
 				</div>
 				<div class="col-md-3 col-sm-3">
 					<div class="about-img"></div>
 				</div>
 				<div class="col-md-3 col-sm-3 about-content-2">
-					<div class="heading">
+					<div class="heading wow fadeInUp" data-wow-delay="1.2s">
 						<h3>My Skills</h3>
 						<p>Photoshop. HTML CSS JS. Web Design</p>
 					</div>
-					<div class="sub-heading">
+					<div class="sub-heading wow fadeInUp" data-wow-delay="1.6s">
 						<div class="pro1">
 							<strong>Frontend Design</strong>
 							<span class="color-white float-right">90%</span>
@@ -104,24 +109,32 @@
 		<div class="about2">
 			<div class="row">
 				<div class="col-md-3 col-sm-3 about-box-1">
-					<i class="fa fa-desktop"></i>
-					<h3>Interface Design</h3>
-					<p>Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.</p>
+					<div class="wow fadeInUp" data-wow-delay="0.8s">
+						<i class="fa fa-desktop"></i>
+						<h3>Interface Design</h3>
+						<p>Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.</p>
+					</div>
 				</div>
 				<div class="col-md-3 col-sm-3 about-box-2">
-					<i class="fa fa-paper-plane"></i>
-					<h3>Media Strategy</h3>
-					<p>Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.</p>
+					<div class="wow fadeInUp" data-wow-delay="1.2s">
+						<i class="fa fa-paper-plane"></i>
+						<h3>Media Strategy</h3>
+						<p>Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.</p>
+					</div>
 				</div>
 				<div class="col-md-3 col-sm-3 about-box-3">
-					<i class="fa fa-table"></i>
-					<h3>Mobile App</h3>
-					<p>Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.</p>
+					<div class="wow fadeInUp" data-wow-delay="1.6s">
+						<i class="fa fa-table"></i>
+						<h3>Mobile App</h3>
+						<p>Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.</p>
+					</div>
 				</div>
 				<div class="col-md-3 col-sm-3 about-box-4">
-					<i class="fa fa-html5"></i>
-					<h3>Coding</h3>
-					<p>Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.</p>
+					<div class="wow fadeInUp" data-wow-delay="1.8s">
+						<i class="fa fa-html5"></i>
+						<h3>Coding</h3>
+						<p>Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -130,11 +143,11 @@
 				<div class="experience-img"></div>
 			</div>
 			<div class="col-md-6 col-sm-6">
-				<div class="heading">
+				<div class="heading wow fadeInUp" data-wow-delay="0.8s">
 					<h1>My Experiences</h1>
 					<p>Previous companies and my task</p>
 				</div>
-				<div class="sub-heading1">
+				<div class="sub-heading1 wow fadeInUp" data-wow-delay="1.2s">
 					<div class="icon float-left">
 						<i class="fa fa-laptop"></i>
 					</div>
@@ -143,7 +156,7 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 					</div>
 				</div>
-				<div class="sub-heading2">
+				<div class="sub-heading2 wow fadeInUp" data-wow-delay="1.6s">
 					<div class="icon float-left">
 						<i class="fa fa-laptop"></i>
 					</div>
@@ -156,11 +169,11 @@
 		</div>
 		<div class="row education">
 			<div class="col-md-6 col-sm-6">
-				<div class="heading">
+				<div class="heading wow fadeInUp" data-wow-delay="0.8s">
 					<h1>My Education</h1>
 					<p>In cursus orci non ipsum gravida dignissim</p>
 				</div>
-				<div class="sub-heading1">
+				<div class="sub-heading1 wow fadeInUp" data-wow-delay="1.2s">
 					<div class="icon float-left">
 						<i class="fa fa-laptop"></i>
 					</div>
@@ -169,7 +182,7 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 					</div>
 				</div>
-				<div class="sub-heading2">
+				<div class="sub-heading2 wow fadeInUp" data-wow-delay="1.6s">
 					<div class="icon float-left">
 						<i class="fa fa-laptop"></i>
 					</div>
@@ -186,39 +199,39 @@
 		<div class="quotes parallax row">
 			<div class="overlay"></div>
 			<div class="center">
-				<i class="fas fa-star"></i>
-				<h4>Proin lobortis eu diam et facilisis. Fusce nisi nibh, molestie in vestibulum quis, auctor et orci.</h4>
-				<p>Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.</p>
+				<i class="fas fa-star wow fadeInUp" data-wow-delay="0.6s"></i>
+				<h4 class="wow fadeInUp" data-wow-delay="0.8s">Proin lobortis eu diam et facilisis. Fusce nisi nibh, molestie in vestibulum quis, auctor et orci.</h4>
+				<p class="wow fadeInUp" data-wow-delay="1s">Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.</p>
 			</div>
 		</div>
 		<div class="contact row">
 			<div class="col-md-6 col-sm-6 contact-form">
-				<div class="heading">
+				<div class="heading wow fadeInUp" data-wow-delay="0.2s">
 					<h3>Say hello..</h3>
 					<p>Integer ut consectetur est. In cursus orci non ipsum gravida dignissim.</p>
 				</div>
 				<form action="/action_page.php">
 					<div class="form-group">
-						<input type="name" class="form-control" id="name" placeholder="Your Name" name="name">
+						<input type="name" class="form-control wow fadeInUp" data-wow-delay="1s" id="name" placeholder="Your Name" name="name">
 					</div>
 					<div class="form-group">
-						<input type="email" class="form-control" id="email" placeholder="Your Email" name="email">
+						<input type="email" class="form-control wow fadeInUp" data-wow-delay="1.2s" id="email" placeholder="Your Email" name="email">
 					</div>
 					<div class="form-group">
-						<textarea type="message" class="form-control" placeholder="Write your message..." name="message"></textarea>
+						<textarea type="message" class="form-control wow fadeInUp" data-wow-delay="1.4s" placeholder="Write your message..." name="message"></textarea>
 					</div>
-					<button type="submit" class="btn btn-primary">Send</button>
+					<button type="submit" class="btn btn-primary wow fadeInUp" data-wow-delay="1.6s">Send</button>
 				</form>
 			</div>
 			<div class="col-md-3 col-sm-3">
 				<div class="contact-img"></div>
 			</div>
 			<div class="col-md-3 col-sm-3 p-0 contact1">
-				<div class="contact-address">
+				<div class="contact-address wow fadeInUp" data-wow-delay="0.6s">
 					<h4>Visit my office</h4>
 					<p>456 New Street 22000, New York City, USA</p>
 				</div>
-				<div class="contact-no">
+				<div class="contact-no wow fadeInUp" data-wow-delay="0.8s">
 					<h4>Contact.</h4>
 					<p><i class="fa fa-phone"></i>01-0110-0220</p>
 					<p><i class="fa fa-envelope"></i><a href="#">hello@company.co</a></p>
@@ -229,8 +242,8 @@
 		<footer>
 			<div class="row">
 				<div class="col-md-12 col-sm-12 footer-content">
-					<p>Copyright © 2016 Your Company | Design: templatemo</p>
-					<ul class="social">
+					<p class="wow fadeInUp" data-wow-delay="1.8s">Copyright © 2016 Your Company | Design: templatemo</p>
+					<ul class="social wow fadeInUp" data-wow-delay="2s">
 						<li>
 							<a href="#"><i class="fab fa-facebook-f"></i></a>
 						</li>
