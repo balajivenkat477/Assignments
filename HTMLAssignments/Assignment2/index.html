@@ -16,7 +16,7 @@
 		new WOW().init();
 	</script>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 	<script>
 		$(window).scroll(function(){
 			$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
