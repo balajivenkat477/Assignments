@@ -2,26 +2,25 @@
 <html>
 <body>
 <script>
- var person = {
-  toString() {
-    return this.name;
-  }
-}
- var person2 = {
-  toString() {
-    return this.money;
-  }
-}
+
  
 let user = {
   name:"John",
   money: 1000,
-}
-var x = person.toString.call(user); 
+
+  toString() {
+    return this.name;
+  },
+
+  valueof() {
+    return this.money;
+  }
+
+};
+//user.toString();
+var x = user.toString(); 
 console.log(x);
-/*document.getElementById("demo").innerHTML = x; */
-var y = person2.toString.call(user);
-console.log(y);
+
 
 </script>
 
