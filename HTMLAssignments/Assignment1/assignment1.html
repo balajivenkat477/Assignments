@@ -11,31 +11,27 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<style type="text/css">
-   .no-js #loader { display: none;  }
-  .js #loader { display: block; position: absolute; left: 100px; top: 0; }
-  .se-pre-con {
+<style>
+  .loader {
     position: fixed;
     left: 0px;
     top: 0px;
     width: 100%;
     height: 100%;
-    z-index: 9999;
+    z-index: 1;
     background: url(./images/loader.gif) center no-repeat #fff;
   }
 </style>
-<script type="text/javascript">
+<script>
   $(window).load(function() {
-  // Animate loader off screen
-  $(".se-pre-con").fadeOut("slow");;
+    $(".loader").fadeOut();
   });
 </script>
 </head>
 
 <body>
-  <div class="se-pre-con"></div>
+  <div class="loader"></div>
   <div class="container-fluid">
     <div id="home" class="screen1">
     <nav class="navbar fixed-top bg-faded">

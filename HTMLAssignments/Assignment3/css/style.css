@@ -212,8 +212,8 @@ footer p{
 	padding: 10%;
     font-size: 32px;
     box-shadow: 9px 0px 30px 7px rgba(0, 0, 0, 0.05) inset;
-    background-color: #fff;
-}
+    background-color: #fff};
+
 .pricing .card-body p:first-child{
 	border: none;
 	padding-top: 30px;
