@@ -10,8 +10,8 @@ li.nav-item{
 .navbar-nav li .nav-link{
 	color: #777;
 }
-.navbar-nav li .nav-link:hover{
-	color: #333;
+.navbar-nav li .nav-link:hover, a.nav-link.active{
+	color: #E44C65;
 }
 .navbar-brand{
 	color: #5E5E5E;
@@ -111,6 +111,19 @@ li.nav-item{
 }
 .snapshot .carousel{
 	padding-top: 7%;
+}
+.snapshot .card{
+	width: 100%;
+	height: 400px;
+	-webkit-transition-property: margin-top; /* Safari */
+	-webkit-transition-duration: 2s; /* Safari */
+	transition-property: margin-top;
+	transition-duration: 2s;
+	margin: 20% 0;
+}
+.snapshot .card:hover img{
+	margin-top: -20%;
+	transition: 1s ease;
 }
 .snapshot .card:hover {
     background: #304352;
@@ -315,13 +328,35 @@ li.nav-item{
 }
 #banner .overlay-banner{
 	background-color: #121212;
-    opacity: 0.6;
+    opacity: 0.8;
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
 }
-
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    background-color: #fff;
+    color: white;
+    cursor: pointer;
+    padding: 6px 11px;
+    border-radius: 50%;
+}
+#myBtn i{
+	color: #333;
+}
+#myBtn:hover{
+	background-color: #e44c65;
+}
+#myBtn i:hover{
+	color: #fff;
+}
 @media only screen and (max-width: 1200px){
 	.snapshot .carousel-item img{
 		width: 200px;
@@ -378,5 +413,66 @@ li.nav-item{
 	.gallery-hover .text {
 	    top: 35%;
 	    left: 40%;
+	}
+	.navbar-nav{
+		text-align: center;
+		margin: 2% 0 3% 34%;
+		font-weight: 600;
+	}
+	li.nav-item{
+		border-bottom: 2px solid #777;
+		width: 80%;
+		padding-top: 5px;
+	}
+}
+@media only screen and (max-width: 576px){
+	.snapshot {
+	    padding: 54% 0;
+	}
+	.about .about-img img{
+		top: 36px;
+		right: 33%;
+		width: 200px;
+	}
+	.gallery-hover .text{
+		top: 42%;
+		font-size: 15px;
+	}
+	.gallery-hover .text button{
+		bottom: -18%;
+	}
+}
+@media only screen and (max-width: 400px){
+	.contact button {
+	    width: 80%;
+	    margin: 3% 0 2% 9%;
+	}
+	.contact .social li a i{
+		width: 35px;
+		height: 35px;
+		line-height: 35px;
+	}
+	.contact .social {
+	    padding: 5% 0 0 6%;
+	}
+	.contact .social {
+	    padding: 5% 0 0 6%;
+	}
+	.gallery-hover .text {
+	    top: 43%;
+	    font-size: 12px;
+	}
+	.gallery-hover .text h2 {
+	    font-size: 16px;
+	}
+	.gallery-hover .text p {
+	    font-size: 13px;
+	}
+	.snapshot {
+	    padding: 65% 0;
+	}
+	.about .about-img img {
+	    top: 36px;
+	    right: 28%;
 	}
 }
